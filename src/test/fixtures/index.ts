@@ -4,7 +4,7 @@ import { Fixtures as GlobalFixtures } from 'spirit.io/test/fixtures';
 import * as path from 'path';
 import * as importTool from 'spirit.io/lib/tools/import';
 
-const port = 8000;
+const port = 3000;
 const mongodbPort = process.env.SPIRIT_MONGODB_PORT || 27017;
 
 const config = {
